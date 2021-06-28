@@ -1,8 +1,8 @@
-# The Elucidat 'Gilded Rose' Coding Test
+# The Elucidat Coding Test
 
 ## The task
 
-This repository includes the initial setup for a Gilded Rose kata.  It includes everything you need to get up and running, including a large suite of tests.  The purpose of this task is to put you in the position of having some old, ugly, legacy code and seeing whay you could do with it, all of the while making any of your changes test-driven and ensuring everything continues to pass the tests (or any more tests you would write). 
+This repository includes the initial setup for a popular kata.  It includes everything you need to get up and running, including a large suite of tests.  The purpose of this task is to put you in the position of having some old, ugly, legacy code and seeing whay you could do with it, all of the while making any of your changes test-driven and ensuring everything continues to pass the tests (or any more tests you would write). 
 
 Please follow the specifications below, refactoring as you see fit.  However, please keep the following in mind:
 
@@ -28,7 +28,7 @@ to install the testing framework (we're using [Kahlan library](http://kahlan.rea
 
 ## Specifications
 
-Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
+Hi there. As you know, we are a small inn with a prime location in a
 prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
 
 Unfortunately, our goods are constantly degrading in quality as they approach their sell by date. We
