@@ -1,0 +1,19 @@
+## Composer Update
+- Updated to use minimum of php 7 (I rolled back from 8.1. as a lot of depretiation notices) 
+- crysalead/kahlan removed and replaced with kahlan/kahlan
+
+
+## Update NextDay Function
+Trying to implement a more DRY approach to the item structure. Therefore, I have created an ItemAbstract.php where each item can utilise the necessary functions to increase / decrease the quality of items. 
+
+## Abstract Class Creation
+ - Allows each item to derive calculations set by the class
+
+## Individual Item Class Creation
+- Default Item Class created for Normal products and used to extend to conjured item. 
+- NextDay function for this class placed within each individual items.
+
+
+## Gilded Rose Spec
+-  Changed the Testing parameters to the instance class of each item. This allows a single point of change in the Item Class (for example if name changes)
+- Updated Parameters to getQuality and getSellIn from the Abstract Class extension to each Item
